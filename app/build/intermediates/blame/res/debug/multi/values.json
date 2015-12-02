@@ -1,0 +1,387 @@
+[
+    {
+        "outputFile": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 35,
+                    "endOffset": 86
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 35,
+                        "endOffset": 89
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 91,
+                    "endColumn": 48,
+                    "endOffset": 135
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 48,
+                        "endOffset": 103
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 140,
+                    "endColumn": 61,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 347,
+                        "endColumn": 61,
+                        "endOffset": 404
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 58,
+                    "endOffset": 256
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 410,
+                        "endColumn": 58,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 261,
+                    "endColumn": 69,
+                    "endOffset": 326
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 225,
+                        "endColumn": 69,
+                        "endOffset": 290
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 331,
+                    "endColumn": 49,
+                    "endOffset": 376
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 296,
+                        "endColumn": 49,
+                        "endOffset": 341
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 381,
+                    "endColumn": 58,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 165,
+                        "endColumn": 58,
+                        "endOffset": 219
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 54,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 109,
+                        "endColumn": 54,
+                        "endOffset": 159
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 495,
+                    "endColumn": 48,
+                    "endOffset": 539
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 476,
+                        "endColumn": 48,
+                        "endOffset": 520
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 544,
+                    "endColumn": 50,
+                    "endOffset": 590
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 526,
+                        "endColumn": 50,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 595,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 881
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 886,
+                    "endLine": 21,
+                    "endColumn": 12,
+                    "endOffset": 1041
+                },
+                "from": {
+                    "file": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\inHandAppBeta_adc\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 35,
+                    "endOffset": 86
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 91,
+                    "endColumn": 43,
+                    "endOffset": 130
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 43,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 135,
+                    "endColumn": 58,
+                    "endOffset": 189
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 194,
+                    "endColumn": 49,
+                    "endOffset": 239
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 244,
+                    "endColumn": 52,
+                    "endOffset": 292
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 52,
+                        "endOffset": 209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 297,
+                    "endColumn": 55,
+                    "endOffset": 348
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 55,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 353,
+                    "endColumn": 48,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 50,
+                    "endOffset": 448
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 453,
+                    "endLine": 16,
+                    "endColumn": 12,
+                    "endOffset": 739
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 744,
+                    "endLine": 19,
+                    "endColumn": 12,
+                    "endOffset": 899
+                },
+                "from": {
+                    "file": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]

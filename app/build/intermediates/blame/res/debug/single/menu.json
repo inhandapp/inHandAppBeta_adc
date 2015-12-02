@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_items.xml",
+        "source": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\menu\\activity_items.xml"
+    },
+    {
+        "merged": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_item_2.xml",
+        "source": "E:\\ColemanUniversity\\MOD6\\COM262_MobileDevelopment\\Docs\\ch10_NewsReader\\app\\src\\main\\res\\menu\\activity_item_2.xml"
+    },
+    {
+        "merged": "E:\\inHandAppBeta_adc\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_items.xml",
+        "source": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\menu\\activity_items.xml"
+    },
+    {
+        "merged": "E:\\inHandAppBeta_adc\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_item_2.xml",
+        "source": "E:\\inHandAppBeta_adc\\app\\src\\main\\res\\menu\\activity_item_2.xml"
+    }
+]
