@@ -1,9 +1,11 @@
 package com.caymo.inHandAppAdc;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.URL;
 
 import javax.xml.parsers.SAXParser;
@@ -15,21 +17,27 @@ import android.content.Context;
 import android.util.Log;
 
 public class eBayFileIO {
-
-    private final String URL_STRING = "http://svcs.ebay.com/services/search/FindingService/v1?OPERATION-NAME=findItemsByKeywords&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=inHanda34-8e86-4e05-9e5b-1fdeb7f3cab&RESPONSE-DATA-FORMAT=XML&REST-PAYLOAD&keywords=computers";
+    private static final String TAG = "eBayFileIO";
+    private final String URL_STRING = "http://svcs.ebay.com/services/search/FindingService/v1" +
+            "OPERATION-NAME=findItemsByKeywords" +
+            "&SERVICE-VERSION=1.0.0" +
+            "&SECURITY-APPNAME=inHanda34-8e86-4e05-9e5b-1fdeb7f3cab" +
+            "&RESPONSE-DATA-FORMAT=XML" +
+            "&REST-PAYLOAD" +
+            "&keywords=";
     private final String FILENAME = "eBay_search_results.xml";
     private Context context = null;
-    
+
+
     public eBayFileIO(Context context) {
         this.context = context;
     }
-    
-    public void downloadFile() {
+
+    public void downloadFile(String keywordsString) {
         try{
-            //keywordsString = keywordsString.replaceAll(" ", "%20");
+            keywordsString = keywordsString.replaceAll(" ", "%20");
 
             // get the URL
-            /*
             URL url = new URL("http://svcs.ebay.com/services/search/FindingService/v1" +
                     "?OPERATION-NAME=findItemsByKeywords" +
                     "&SERVICE-VERSION=1.0.0" +
@@ -37,14 +45,15 @@ public class eBayFileIO {
                     "&RESPONSE-DATA-FORMAT=XML" +
                     "&REST-PAYLOAD" +
                     "&keywords=" + keywordsString);
-            */
-            URL url = new URL(URL_STRING);
+
+            //URL url = new URL(URL_STRING + keywordsString);
+            //url = new URL(URL_STRING);
 
             // get the input stream
             InputStream in = url.openStream();
-            
+
             // get the output stream
-            FileOutputStream out = 
+            FileOutputStream out =
                 context.openFileOutput(FILENAME, Context.MODE_PRIVATE);
 
             // read input and write output
@@ -57,12 +66,13 @@ public class eBayFileIO {
             }
             out.close();
             in.close();
-        } 
+        }
         catch (IOException e) {
-            Log.e("eBay", e.toString());
+            Log.e(TAG, e.toString());
+            Log.i(TAG, FILENAME);
         }
     }
-    
+
     public eBayURL readFile() {
         try {
             // get the XML reader
@@ -86,7 +96,8 @@ public class eBayFileIO {
             return feed;
         } 
         catch (Exception e) {
-            Log.e("eBay", e.toString());
+            Log.e(TAG, e.toString());
+
             return null;
         }
     }

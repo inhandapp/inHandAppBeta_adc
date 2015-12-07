@@ -9,17 +9,17 @@ import android.app.Activity;
 import android.content.Intent;
 import android.util.Log;
 import android.view.View;
-//import android.view.View.OnClickListener;
+import android.view.View.OnClickListener;
 import android.widget.AdapterView;
-//import android.widget.Button;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
 public class ItemsActivity extends Activity 
-implements OnItemClickListener {
-//implements OnItemClickListener, OnClickListener {
+//implements OnItemClickListener {
+implements OnItemClickListener, OnClickListener {
 
     private eBayURL url;
     private eBayFileIO io;
@@ -27,9 +27,9 @@ implements OnItemClickListener {
     private TextView titleTextView;
     private TextView searchFieldEditTextView;
     private ListView itemsListView;
-    //private Button submitButton;
+    private Button submitButton;
 
-    //private static String keywordsString = "";
+    private static String keywordsString = "";
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,13 +41,14 @@ implements OnItemClickListener {
         searchFieldEditTextView = (TextView) findViewById(R.id.searchFieldEditText);
         titleTextView = (TextView) findViewById(R.id.titleTextView);
         itemsListView = (ListView) findViewById(R.id.itemsListView);
+        submitButton = (Button) findViewById(R.id.submitButton);
 
-        //submitButton.setOnClickListener(this);
+        submitButton.setOnClickListener(this);
         itemsListView.setOnItemClickListener(this);
 
-        new DownloadURL().execute();
+        //new DownloadURL().execute();
     }
-/*
+
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
@@ -57,12 +58,12 @@ implements OnItemClickListener {
                 break;
         }
     }
-*/
+
     class DownloadURL extends AsyncTask<Void, Void, Void> {
         @Override
         protected Void doInBackground(Void... params) {
-            io.downloadFile();
-            //io.downloadFile(keywordsString);
+            //io.downloadFile();
+            io.downloadFile(keywordsString);
             return null;
         }
         
@@ -114,8 +115,8 @@ implements OnItemClickListener {
         
         // create the resource, from, and to variables 
         int resource = R.layout.listview_item;
-        String[] from = {"title"};
-        int[] to = {R.id.titleTextView};
+        String[] from = {"title", "currentPrice"};
+        int[] to = {R.id.titleTextView, R.id.currentPriceTextView};
 
         // create and set the adapter
         SimpleAdapter adapter = 
