@@ -12,12 +12,13 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
-public class ItemsActivity extends Activity 
+public class ItemsActivity extends Activity
 //implements OnItemClickListener {
 implements OnItemClickListener, OnClickListener {
 
@@ -25,7 +26,7 @@ implements OnItemClickListener, OnClickListener {
     private eBayFileIO io;
     
     private TextView titleTextView;
-    private TextView searchFieldEditTextView;
+    private EditText searchFieldEditTextView;
     private ListView itemsListView;
     private Button submitButton;
 
@@ -38,7 +39,7 @@ implements OnItemClickListener, OnClickListener {
         
         io = new eBayFileIO(getApplicationContext());
 
-        searchFieldEditTextView = (TextView) findViewById(R.id.searchFieldEditText);
+        searchFieldEditTextView = (EditText) findViewById(R.id.searchFieldEditText);
         titleTextView = (TextView) findViewById(R.id.titleTextView);
         itemsListView = (ListView) findViewById(R.id.itemsListView);
         submitButton = (Button) findViewById(R.id.submitButton);
